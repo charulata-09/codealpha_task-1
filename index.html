@@ -1,0 +1,303 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <title>Student Portfolio</title> <!-- Google Fonts --> 
+         <link rel="preconnect" href="https://fonts.googleapis.com"> 
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> <!-- Font Awesome --> 
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" /> 
+         <link rel="stylesheet" href="index.css" />
+         <style>:root { --primary: #0f172a;
+          --secondary: #f8fafc;
+          --accent: #14b8a6;
+          --gold: #d4a017; 
+          --text: #1e293b;
+          --light-text: #64748b; 
+          --white: #ffffff;
+          --border: #e2e8f0;
+          --shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+          --radius: 14px;
+          --transition: all 0.3s ease; }
+        </style>
+    </head> 
+    <body>
+        <!-- ========================= HEADER / NAVBAR ========================= -->
+         <header> 
+            <div class="container">
+                 <nav>
+                     <div class="logo">Sara Carter</div> 
+                     <ul class="nav-links" id="navLinks">
+                         <li>
+                            <a href="#home" class="nav-link active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li> 
+                        <li>
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#resume" class="nav-link">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- ========================= HERO ========================= -->
+        <section class="hero" id="home"> 
+            <div class="container"> 
+                <div class="hero-content"> 
+                    <h1>Hello, I'm Sara Carter</h1>
+                    <h3>Computer Science Student</h3> 
+                    <p> Passionate about software development, UI/UX design, and building scalable digital solutions that create impact. </p> 
+                    <div class="hero-buttons"> 
+                        <a href="#projects" class="btn btn-primary">View Projects</a> 
+                        <a href="resume.pdf" download class="btn btn-outline">Download Resume</a> 
+                    </div> 
+                </div> 
+            </div> 
+        </section>
+        <!-- ========================= ABOUT ========================= -->
+        <section id="about" class="fade-in"> 
+            <div class="container"> 
+                <div class="section-title"> 
+                    <h2>About Me</h2> 
+                    <p>Get to know more about me</p> 
+                </div> 
+                <div class="about-content"> 
+                    <div class="about-image"> 
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop" alt="Profile Photo" /> 
+                    </div>
+                    <div class="about-text"> 
+                        <h3>Aspiring Software Engineer</h3> 
+                        <p> I am a Computer Science student with a strong interest in web development, software engineering, and problem-solving. I enjoy creating professional and user-friendly digital experiences while continuously learning new technologies. </p> 
+                        <div class="about-details"> 
+                            <p><strong>University:</strong> XYZ University</p> 
+                            <p><strong>Graduation Year:</strong> 2027</p> 
+                            <p><strong>Interests:</strong> Web Development, AI, UI/UX, Open Source</p> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </section>
+        <!-- ========================= SKILLS ========================= -->
+        <section id="skills" class="fade-in"> 
+            <div class="container"> 
+                <div class="section-title"> 
+                    <h2>Skills</h2> 
+                    <p>Technologies and tools I work with</p> 
+                </div> 
+                <div class="skills-grid"> 
+                    <div class="skill-card"> 
+                        <h3>Languages</h3> 
+                        <div class="skill"> 
+                            <span>HTML</span> 
+                            <div class="progress-bar"> 
+                                <div class="progress" style="width:95%">
+
+                                </div> 
+                            </div> 
+                        </div> 
+                        <div class="skill"> 
+                            <span>CSS</span> 
+                            <div class="progress-bar"> 
+                                <div class="progress" style="width:90%">
+
+                                </div> 
+                            </div> 
+                        </div> 
+                        <div class="skill"> 
+                            <span>JavaScript</span> 
+                            <div class="progress-bar"> 
+                                <div class="progress" style="width:85%"></div>
+                             </div> 
+                            </div> 
+                        </div> 
+                        <div class="skill-card"> 
+                            <h3>Frameworks</h3> 
+                            <div class="skill"> <span>React</span> 
+                                <div class="progress-bar"> 
+                                    <div class="progress" style="width:80%"></div> 
+                                </div> </div> 
+                                <div class="skill"> <span>Bootstrap</span> 
+                                    <div class="progress-bar"> 
+                                        <div class="progress" style="width:88%"></div> 
+                                    </div> 
+                                </div> 
+                                <div class="skill"> <span>Node.js</span> 
+                                    <div class="progress-bar"> 
+                                        <div class="progress" style="width:75%"></div> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="skill-card"> 
+                                <h3>Tools</h3> 
+                                <div class="skill"> 
+                                    <span>Git & GitHub</span> 
+                                    <div class="progress-bar"> 
+                                        <div class="progress" style="width:90%">
+
+                                        </div> 
+                                    </div> 
+                                </div> 
+                                <div class="skill"> <span>VS Code</span>
+                                     <div class="progress-bar"> 
+                                        <div class="progress" style="width:92%">
+
+                                        </div> 
+                                    </div> 
+                                </div> 
+                                <div class="skill"> <span>Figma</span> 
+                                    <div class="progress-bar"> 
+                                        <div class="progress" style="width:70%"></div> 
+                                 </div> 
+                            </div> 
+                         </div> 
+                  </div> 
+              </div> 
+        </section>
+        <!-- ========================= PROJECTS ========================= -->
+        <section id="projects" class="fade-in"> 
+            <div class="container"> 
+                <div class="section-title"> 
+                    <h2>Projects</h2> 
+                    <p>Some of my recent work</p> 
+                </div> 
+                <div class="projects-grid"> 
+                    <div class="project-card"> 
+                        <div class="project-content"> 
+                            <h3>Portfolio Website</h3> 
+                            <p> A responsive portfolio website built with HTML, CSS, and JavaScript featuring smooth animations. </p> 
+                            <div class="tags"> 
+                                <span class="tag">HTML</span> 
+                                <span class="tag">CSS</span> 
+                                <span class="tag">JavaScript</span> 
+                            </div> 
+                            <div class="project-buttons"> 
+                                <a href="#" class="btn btn-primary">GitHub</a> 
+                                <a href="#" class="btn btn-outline">Live Demo</a> 
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="project-card"> 
+                        <div class="project-content"> 
+                            <h3>Task Manager App</h3> 
+                            <p> A productivity web application for managing daily tasks, deadlines, and priorities efficiently. </p> 
+                            <div class="tags"> 
+                                <span class="tag">React</span> 
+                                <span class="tag">Firebase</span> 
+                                <span class="tag">Bootstrap</span> 
+                            </div> 
+                            <div class="project-buttons"> 
+                                <a href="#" class="btn btn-primary">GitHub</a> 
+                                <a href="#" class="btn btn-outline">Live Demo</a> 
+                            </div> 
+                        </div> 
+                    </div> 
+                    <div class="project-card"> 
+                        <div class="project-content"> 
+                            <h3>E-Commerce UI</h3> 
+                            <p> A clean and modern front-end design for an online shopping platform with responsive layouts. </p> 
+                            <div class="tags"> 
+                                <span class="tag">HTML</span> 
+                                <span class="tag">CSS</span> 
+                                <span class="tag">UI/UX</span> 
+                            </div> 
+                            <div class="project-buttons"> 
+                                <a href="#" class="btn btn-primary">GitHub</a> 
+                                <a href="#" class="btn btn-outline">Live Demo</a> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </section>
+        <!-- ========================= RESUME ========================= -->
+        <section id="resume" class="fade-in"> 
+            <div class="container"> 
+                <div class="section-title"> 
+                    <h2>Resume</h2> 
+                    <p>Education & Experience</p> 
+                </div> 
+                <div class="timeline"> 
+                    <div class="timeline-item"> 
+                        <div class="timeline-content"> 
+                            <h3>Bachelor of Computer Science</h3> 
+                            <p><strong>XYZ University</strong> | 2023 - 2027</p> 
+                            <p> Focused on software engineering, web technologies, and data structures. </p> 
+                        </div> 
+                    </div> 
+                    <div class="timeline-item"> 
+                        <div class="timeline-content"> 
+                            <h3>Frontend Development Intern</h3> 
+                            <p><strong>ABC Tech</strong> | Summer 2025</p> 
+                            <p> Worked on responsive UI components and collaborated with developers to improve user experience. </p> 
+                        </div> 
+                    </div> 
+                    <div class="timeline-item"> 
+                        <div class="timeline-content"> 
+                            <h3>Hackathon Participant</h3> 
+                            <p><strong>National Coding Fest</strong> | 2024</p> 
+                            <p> Built an AI-powered student productivity application with a team of developers. </p> 
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="resume-btn"> 
+                    <a href="resume.pdf" download class="btn btn-primary"> Download Resume (PDF) </a> 
+                    <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline"> Open Sample Resume </a> 
+                </div> 
+            </div> 
+        </section> 
+        <!-- ========================= CONTACT ========================= -->
+        <section id="contact" class="fade-in"> 
+            <div class="container"> 
+                <div class="section-title"> 
+                    <h2>Contact Me</h2> 
+                    <p>Let's connect and collaborate</p> 
+                </div> 
+                <div class="contact-container"> 
+                    <form class="contact-form"> 
+                        <input type="text" placeholder="Your Name" required /> 
+                        <input type="email" placeholder="Your Email" required /> 
+                        <textarea rows="6" placeholder="Your Message"></textarea> 
+                        <button type="submit" class="btn btn-primary"> Send Message </button> 
+                    </form> 
+                    <div class="social-icons"> 
+                        <a href="#"><i class="fab fa-linkedin"></i></a> 
+                        <a href="#"><i class="fab fa-github"></i></a> 
+                        <a href="#"><i class="fas fa-envelope"></i></a> 
+                        <a href="#"><i class="fab fa-twitter"></i></a> 
+                    </div> 
+                </div> 
+            </div> 
+        </section> 
+        <!-- ========================= FOOTER ========================= -->
+        <footer> 
+            <div class="container"> 
+                <p>© 2026 Sara Carter. All Rights Reserved.</p> 
+                <div class="footer-links"> 
+                    <a href="#home">Home</a> 
+                    <a href="#about">About</a> 
+                    <a href="#projects">Projects</a> 
+                    <a href="#contact">Contact</a> 
+                </div> 
+            </div> 
+        </footer> 
+        <!-- Back To Top --> 
+         <div class="back-to-top" id="backToTop">
+             <i class="fas fa-arrow-up"></i> 
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
